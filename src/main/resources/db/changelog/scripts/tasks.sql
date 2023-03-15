@@ -8,3 +8,12 @@ CREATE TABLE tasks(
     date DATE,
     time TIME
 );
+
+-- changeset ezuykow:2
+ALTER TABLE tasks
+    ALTER COLUMN chat_id
+        TYPE BIGINT;
+
+-- changeset ezuykow:3
+CREATE INDEX tasks_date_time_idx ON tasks(date, time);
+
