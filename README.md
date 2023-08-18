@@ -1,3 +1,3 @@
 # TasksBot
 
-Telegram-Bot - планировцик задач
+Telegram-Bot - планировщик задач
